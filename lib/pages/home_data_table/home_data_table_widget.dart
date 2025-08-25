@@ -15,10 +15,7 @@ import 'home_data_table_model.dart';
 export 'home_data_table_model.dart';
 
 class HomeDataTableWidget extends StatefulWidget {
-  const HomeDataTableWidget({
-    super.key,
-    this.idJRV,
-  });
+  const HomeDataTableWidget({super.key, this.idJRV});
 
   final int? idJRV;
 
@@ -118,8 +115,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                          10.0,
+                          0.0,
+                          0.0,
+                          0.0,
+                        ),
                         child: Container(
                           width: 344.3,
                           height: 33.49,
@@ -128,14 +129,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                           ),
                           child: Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 5.0, 0.0, 0.0),
+                              0.0,
+                              5.0,
+                              0.0,
+                              0.0,
+                            ),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 0.0, 10.0, 0.0),
+                                    0.0,
+                                    0.0,
+                                    10.0,
+                                    0.0,
+                                  ),
                                   child: Row(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
@@ -145,28 +154,24 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.inter(
-                                                fontWeight:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontWeight: FlutterFlowTheme.of(
+                                                  context,
+                                                ).bodyMedium.fontWeight,
+                                                fontStyle: FlutterFlowTheme.of(
+                                                  context,
+                                                ).bodyMedium.fontStyle,
                                               ),
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .alternate,
+                                              color: FlutterFlowTheme.of(
+                                                context,
+                                              ).alternate,
                                               fontSize: 19.0,
                                               letterSpacing: 0.0,
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontWeight: FlutterFlowTheme.of(
+                                                context,
+                                              ).bodyMedium.fontWeight,
+                                              fontStyle: FlutterFlowTheme.of(
+                                                context,
+                                              ).bodyMedium.fontStyle,
                                             ),
                                       ),
                                     ],
@@ -187,20 +192,19 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                           .override(
                                             font: GoogleFonts.inter(
                                               fontWeight: FontWeight.w600,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: FlutterFlowTheme.of(
+                                                context,
+                                              ).bodyMedium.fontStyle,
                                             ),
-                                            color: FlutterFlowTheme.of(context)
-                                                .error,
+                                            color: FlutterFlowTheme.of(
+                                              context,
+                                            ).error,
                                             fontSize: 25.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: FlutterFlowTheme.of(
+                                              context,
+                                            ).bodyMedium.fontStyle,
                                           ),
                                     ),
                                   ],
@@ -213,8 +217,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     ],
                   ),
                   Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      0.0,
+                      10.0,
+                      0.0,
+                      0.0,
+                    ),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -227,14 +235,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                           children: [
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  5.0, 0.0, 0.0, 0.0),
+                                5.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                              ),
                               child: Column(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 1.0),
+                                      0.0,
+                                      0.0,
+                                      0.0,
+                                      1.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -247,7 +263,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 1.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      1.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -260,7 +280,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 0.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      0.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -273,7 +297,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 1.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      1.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -286,7 +314,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 1.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      1.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -299,7 +331,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 0.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      0.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -312,7 +348,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   ),
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 5.0, 0.0, 1.0),
+                                      0.0,
+                                      5.0,
+                                      0.0,
+                                      1.0,
+                                    ),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
                                       child: Image.asset(
@@ -337,22 +377,29 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                 width: 236.0,
                                 height: 464.3,
                                 decoration: BoxDecoration(
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryText,
+                                  color: FlutterFlowTheme.of(
+                                    context,
+                                  ).primaryText,
                                   shape: BoxShape.rectangle,
-                                  border: Border.all(
-                                    color: Colors.black,
-                                  ),
+                                  border: Border.all(color: Colors.black),
                                 ),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      15.0, 0.0, 0.0, 0.0),
+                                    15.0,
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                  ),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -361,74 +408,75 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp1DcFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp1DcTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp1dc = _model.vp1dc;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp1DcTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp1dc = _model.vp1dc;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 40.0,
-                                                        letterSpacing: 15.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyMedium
-                                                                .fontStyle,
-                                                      ),
-                                              hintText: 'Ingrese Valor DC',
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).bodyMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .bodyMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 40.0,
+                                                    letterSpacing: 15.0,
+                                                    fontWeight: FontWeight.w500,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
+                                                  ),
+                                              hintText: 'DC',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -445,8 +493,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -454,19 +502,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -475,44 +526,49 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 28.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp1DcTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -521,81 +577,85 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp2LibreFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp2LibreTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp2libre =
-                                                    _model.vp2libre;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp2LibreTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp2libre =
+                                                        _model.vp2libre;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 14.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               hintText: 'Ingrese Valor LIBRE',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -612,8 +672,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -621,19 +681,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -642,44 +705,49 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 28.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp2LibreTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -688,80 +756,85 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp3PinuFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp3PinuTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp3pinu = _model.vp3pinu;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp3PinuTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp3pinu =
+                                                        _model.vp3pinu;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 14.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               hintText: 'Ingrese Valor PINU',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -778,8 +851,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -787,19 +860,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -808,44 +884,49 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 28.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp3PinuTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -854,80 +935,85 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp4LibFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp4LibTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp4lib = _model.vp4lib;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp4LibTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp4lib =
+                                                        _model.vp4lib;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 14.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               hintText: 'Ingrese Valor LIBERAL',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -944,8 +1030,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -953,19 +1039,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -974,44 +1063,49 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 25.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp4LibTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -1020,81 +1114,86 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp5NacFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp5NacTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp5nac = _model.vp5nac;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp5NacTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp5nac =
+                                                        _model.vp5nac;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 14.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               hintText:
                                                   'Ingrese Valor NACIONAL',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -1111,8 +1210,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -1120,19 +1219,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -1141,37 +1243,38 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 28.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp5NacTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
@@ -1192,62 +1295,58 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                           decoration: InputDecoration(
                                             isDense: true,
                                             labelStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      font: GoogleFonts.inter(
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .labelMedium
-                                                              .fontWeight,
-                                                      fontStyle:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .labelMedium
-                                                              .fontStyle,
-                                                    ),
+                                                FlutterFlowTheme.of(
+                                                  context,
+                                                ).labelMedium.override(
+                                                  font: GoogleFonts.inter(
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
+                                                  letterSpacing: 0.0,
+                                                  fontWeight:
+                                                      FlutterFlowTheme.of(
+                                                        context,
+                                                      ).labelMedium.fontWeight,
+                                                  fontStyle:
+                                                      FlutterFlowTheme.of(
+                                                        context,
+                                                      ).labelMedium.fontStyle,
+                                                ),
                                             hintText: 'Ingrese Votos Blancos',
                                             hintStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      font: GoogleFonts.inter(
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .labelMedium
-                                                              .fontWeight,
-                                                      fontStyle:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .labelMedium
-                                                              .fontStyle,
-                                                    ),
+                                                FlutterFlowTheme.of(
+                                                  context,
+                                                ).labelMedium.override(
+                                                  font: GoogleFonts.inter(
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
+                                                  letterSpacing: 0.0,
+                                                  fontWeight:
+                                                      FlutterFlowTheme.of(
+                                                        context,
+                                                      ).labelMedium.fontWeight,
+                                                  fontStyle:
+                                                      FlutterFlowTheme.of(
+                                                        context,
+                                                      ).labelMedium.fontStyle,
+                                                ),
                                             enabledBorder: OutlineInputBorder(
                                               borderSide: BorderSide(
                                                 color: Color(0x00000000),
@@ -1266,9 +1365,9 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             ),
                                             errorBorder: OutlineInputBorder(
                                               borderSide: BorderSide(
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .error,
+                                                color: FlutterFlowTheme.of(
+                                                  context,
+                                                ).error,
                                                 width: 1.0,
                                               ),
                                               borderRadius:
@@ -1276,19 +1375,21 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             ),
                                             focusedErrorBorder:
                                                 OutlineInputBorder(
-                                              borderSide: BorderSide(
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .error,
-                                                width: 1.0,
-                                              ),
-                                              borderRadius:
-                                                  BorderRadius.circular(8.0),
-                                            ),
+                                                  borderSide: BorderSide(
+                                                    color: FlutterFlowTheme.of(
+                                                      context,
+                                                    ).error,
+                                                    width: 1.0,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                        8.0,
+                                                      ),
+                                                ),
                                             filled: true,
-                                            fillColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .secondaryBackground,
+                                            fillColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).secondaryBackground,
                                           ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
@@ -1297,40 +1398,45 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                                 fontSize: 25.0,
                                                 letterSpacing: 15.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: FlutterFlowTheme.of(
+                                                  context,
+                                                ).bodyMedium.fontStyle,
                                               ),
                                           maxLength: 3,
-                                          buildCounter: (context,
-                                                  {required currentLength,
-                                                  required isFocused,
-                                                  maxLength}) =>
-                                              null,
+                                          buildCounter:
+                                              (
+                                                context, {
+                                                required currentLength,
+                                                required isFocused,
+                                                maxLength,
+                                              }) => null,
                                           keyboardType: TextInputType.number,
-                                          cursorColor:
-                                              FlutterFlowTheme.of(context)
-                                                  .primaryText,
+                                          cursorColor: FlutterFlowTheme.of(
+                                            context,
+                                          ).primaryText,
                                           validator: _model
                                               .vp7BlancosTextControllerValidator
                                               .asValidator(context),
                                           inputFormatters: [
                                             FilteringTextInputFormatter.allow(
-                                                RegExp('[0-9]'))
+                                              RegExp('[0-9]'),
+                                            ),
                                           ],
                                         ),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 1.0),
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                          1.0,
+                                        ),
                                         child: Container(
                                           width: 200.0,
                                           child: TextFormField(
@@ -1339,81 +1445,85 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             focusNode: _model.vp6NulosFocusNode,
                                             onChanged: (_) =>
                                                 EasyDebounce.debounce(
-                                              '_model.vp6NulosTextController',
-                                              Duration(milliseconds: 2000),
-                                              () async {
-                                                _model.vp6nulos =
-                                                    _model.vp6nulos;
-                                                safeSetState(() {});
-                                              },
-                                            ),
+                                                  '_model.vp6NulosTextController',
+                                                  Duration(milliseconds: 2000),
+                                                  () async {
+                                                    _model.vp6nulos =
+                                                        _model.vp6nulos;
+                                                    safeSetState(() {});
+                                                  },
+                                                ),
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
                                               isDense: true,
                                               labelStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        fontSize: 14.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    fontSize: 14.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               hintText: 'Ingreser Votos Nulos',
                                               hintStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .labelMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).labelMedium.override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        FlutterFlowTheme.of(
+                                                              context,
+                                                            )
+                                                            .labelMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        FlutterFlowTheme.of(
+                                                          context,
+                                                        ).labelMedium.fontStyle,
+                                                  ),
                                               enabledBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .secondaryText,
+                                                    context,
+                                                  ).secondaryText,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -1430,8 +1540,8 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               errorBorder: OutlineInputBorder(
                                                 borderSide: BorderSide(
                                                   color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
+                                                    context,
+                                                  ).error,
                                                   width: 1.0,
                                                 ),
                                                 borderRadius:
@@ -1439,19 +1549,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               ),
                                               focusedErrorBorder:
                                                   OutlineInputBorder(
-                                                borderSide: BorderSide(
-                                                  color: FlutterFlowTheme.of(
-                                                          context)
-                                                      .error,
-                                                  width: 1.0,
-                                                ),
-                                                borderRadius:
-                                                    BorderRadius.circular(8.0),
-                                              ),
+                                                    borderSide: BorderSide(
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).error,
+                                                      width: 1.0,
+                                                    ),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                          8.0,
+                                                        ),
+                                                  ),
                                               filled: true,
-                                              fillColor:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryBackground,
+                                              fillColor: FlutterFlowTheme.of(
+                                                context,
+                                              ).secondaryBackground,
                                             ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -1460,37 +1573,38 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                          context,
+                                                        ).bodyMedium.fontStyle,
                                                   ),
                                                   fontSize: 28.0,
                                                   letterSpacing: 15.0,
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
                                             maxLength: 3,
                                             maxLengthEnforcement:
                                                 MaxLengthEnforcement.enforced,
-                                            buildCounter: (context,
-                                                    {required currentLength,
-                                                    required isFocused,
-                                                    maxLength}) =>
-                                                null,
+                                            buildCounter:
+                                                (
+                                                  context, {
+                                                  required currentLength,
+                                                  required isFocused,
+                                                  maxLength,
+                                                }) => null,
                                             keyboardType: TextInputType.number,
-                                            cursorColor:
-                                                FlutterFlowTheme.of(context)
-                                                    .primaryText,
+                                            cursorColor: FlutterFlowTheme.of(
+                                              context,
+                                            ).primaryText,
                                             validator: _model
                                                 .vp6NulosTextControllerValidator
                                                 .asValidator(context),
                                             inputFormatters: [
                                               FilteringTextInputFormatter.allow(
-                                                  RegExp('[0-9]'))
+                                                RegExp('[0-9]'),
+                                              ),
                                             ],
                                           ),
                                         ),
@@ -1506,14 +1620,22 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     ),
                   ),
                   Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(35.0, 10.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      35.0,
+                      10.0,
+                      0.0,
+                      0.0,
+                    ),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(
-                              5.0, 0.0, 0.0, 0.0),
+                            5.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                          ),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
@@ -1525,41 +1647,70 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                     children: [
                                       FFButtonWidget(
                                         onPressed: () async {
-                                          if ((_model.vp1DcTextController
-                                                          .text !=
-                                                      '') &&
-                                              (_model.vp2LibreTextController.text !=
-                                                      '') &&
-                                              (_model.vp3PinuTextController.text !=
-                                                      '') &&
-                                              (_model.vp4LibTextController.text !=
-                                                      '') &&
-                                              (_model.vp5NacTextController
-                                                          .text !=
-                                                      '') &&
-                                              (_model.vp7BlancosTextController
-                                                          .text !=
-                                                      '') &&
-                                              (_model.vp6NulosTextController
-                                                          .text !=
-                                                      '')) {
-                                            _model.sumaActas = int.parse(_model
-                                                    .vp1DcTextController.text) +
-                                                int.parse(_model
-                                                    .vp2LibreTextController
-                                                    .text) +
-                                                int.parse(_model
-                                                    .vp3PinuTextController
-                                                    .text) +
-                                                int.parse(_model
-                                                    .vp4LibTextController
-                                                    .text) +
-                                                int.parse(_model
-                                                    .vp5NacTextController
-                                                    .text) +
+                                          if ((_model
+                                                      .vp1DcTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp2LibreTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp3PinuTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp4LibTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp5NacTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp7BlancosTextController
+                                                      .text !=
+                                                  '') &&
+                                              (_model
+                                                      .vp6NulosTextController
+                                                      .text !=
+                                                  '')) {
+                                            _model.sumaActas =
                                                 int.parse(
-                                                    _model.vp6NulosTextController.text) +
-                                                int.parse(_model.vp7BlancosTextController.text);
+                                                  _model
+                                                      .vp1DcTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp2LibreTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp3PinuTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp4LibTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp5NacTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp6NulosTextController
+                                                      .text,
+                                                ) +
+                                                int.parse(
+                                                  _model
+                                                      .vp7BlancosTextController
+                                                      .text,
+                                                );
                                             safeSetState(() {});
                                             FFAppState().votosSumados = true;
                                             safeSetState(() {});
@@ -1571,12 +1722,14 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 return AlertDialog(
                                                   title: Text('Error'),
                                                   content: Text(
-                                                      'No debe dejar campos en blanco.'),
+                                                    'No debe dejar campos en blanco.',
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
-                                                              alertDialogContext),
+                                                            alertDialogContext,
+                                                          ),
                                                       child: Text('Ok'),
                                                     ),
                                                   ],
@@ -1591,49 +1744,55 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                           height: 40.0,
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  16.0, 0.0, 16.0, 0.0),
+                                                16.0,
+                                                0.0,
+                                                16.0,
+                                                0.0,
+                                              ),
                                           iconPadding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 0.0, 0.0, 0.0),
+                                                0.0,
+                                                0.0,
+                                                0.0,
+                                                0.0,
+                                              ),
                                           color: Color(0xFF57636C),
-                                          textStyle: FlutterFlowTheme.of(
-                                                  context)
-                                              .titleSmall
-                                              .override(
+                                          textStyle:
+                                              FlutterFlowTheme.of(
+                                                context,
+                                              ).titleSmall.override(
                                                 font: GoogleFonts.interTight(
                                                   fontWeight:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .titleSmall
-                                                          .fontWeight,
+                                                        context,
+                                                      ).titleSmall.fontWeight,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .titleSmall
-                                                          .fontStyle,
+                                                        context,
+                                                      ).titleSmall.fontStyle,
                                                 ),
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .alternate,
+                                                color: FlutterFlowTheme.of(
+                                                  context,
+                                                ).alternate,
                                                 fontSize: 14.0,
                                                 letterSpacing: 0.0,
-                                                fontWeight:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleSmall
-                                                        .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .titleSmall
-                                                        .fontStyle,
+                                                fontWeight: FlutterFlowTheme.of(
+                                                  context,
+                                                ).titleSmall.fontWeight,
+                                                fontStyle: FlutterFlowTheme.of(
+                                                  context,
+                                                ).titleSmall.fontStyle,
                                               ),
                                           elevation: 0.0,
                                           borderSide: BorderSide(
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
+                                            color: FlutterFlowTheme.of(
+                                              context,
+                                            ).alternate,
                                             width: 2.0,
                                           ),
-                                          borderRadius:
-                                              BorderRadius.circular(12.0),
+                                          borderRadius: BorderRadius.circular(
+                                            12.0,
+                                          ),
                                         ),
                                       ),
                                     ],
@@ -1643,7 +1802,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                     children: [
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
-                                            10.0, 0.0, 0.0, 0.0),
+                                          10.0,
+                                          0.0,
+                                          0.0,
+                                          0.0,
+                                        ),
                                         child: Text(
                                           '${_model.sumaActas?.toString()}',
                                           style: FlutterFlowTheme.of(context)
@@ -1653,20 +1816,18 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                   fontWeight: FontWeight.bold,
                                                   fontStyle:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                        context,
+                                                      ).bodyMedium.fontStyle,
                                                 ),
-                                                color:
-                                                    FlutterFlowTheme.of(context)
-                                                        .warning,
+                                                color: FlutterFlowTheme.of(
+                                                  context,
+                                                ).warning,
                                                 fontSize: 40.0,
                                                 letterSpacing: 15.0,
                                                 fontWeight: FontWeight.bold,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: FlutterFlowTheme.of(
+                                                  context,
+                                                ).bodyMedium.fontStyle,
                                               ),
                                         ),
                                       ),
@@ -1684,37 +1845,41 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               Text(
                                                 'Para Revisión',
                                                 style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          font:
-                                                              GoogleFonts.inter(
-                                                            fontWeight:
-                                                                FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyMedium
-                                                                    .fontWeight,
-                                                            fontStyle:
-                                                                FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyMedium
-                                                                    .fontStyle,
-                                                          ),
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .primaryBackground,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
+                                                    FlutterFlowTheme.of(
+                                                      context,
+                                                    ).bodyMedium.override(
+                                                      font: GoogleFonts.inter(
+                                                        fontWeight:
+                                                            FlutterFlowTheme.of(
+                                                                  context,
+                                                                )
+                                                                .bodyMedium
+                                                                .fontWeight,
+                                                        fontStyle:
+                                                            FlutterFlowTheme.of(
+                                                                  context,
+                                                                )
+                                                                .bodyMedium
+                                                                .fontStyle,
+                                                      ),
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                            context,
+                                                          ).primaryBackground,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .bodyMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                context,
+                                                              )
+                                                              .bodyMedium
+                                                              .fontStyle,
+                                                    ),
                                               ),
                                             ],
                                           ),
@@ -1723,52 +1888,56 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             children: [
                                               Theme(
                                                 data: ThemeData(
-                                                  checkboxTheme:
-                                                      CheckboxThemeData(
+                                                  checkboxTheme: CheckboxThemeData(
                                                     visualDensity:
                                                         VisualDensity.compact,
                                                     materialTapTargetSize:
                                                         MaterialTapTargetSize
                                                             .shrinkWrap,
-                                                    shape:
-                                                        RoundedRectangleBorder(
+                                                    shape: RoundedRectangleBorder(
                                                       borderRadius:
                                                           BorderRadius.circular(
-                                                              4.0),
+                                                            4.0,
+                                                          ),
                                                     ),
                                                   ),
                                                   unselectedWidgetColor:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .alternate,
+                                                        context,
+                                                      ).alternate,
                                                 ),
                                                 child: Checkbox(
-                                                  value: _model
-                                                      .checkboxValue ??= false,
+                                                  value:
+                                                      _model.checkboxValue ??=
+                                                          false,
                                                   onChanged: (newValue) async {
-                                                    safeSetState(() =>
-                                                        _model.checkboxValue =
-                                                            newValue!);
+                                                    safeSetState(
+                                                      () =>
+                                                          _model.checkboxValue =
+                                                              newValue!,
+                                                    );
                                                   },
-                                                  side: (FlutterFlowTheme.of(
-                                                                  context)
-                                                              .alternate !=
+                                                  side:
+                                                      (FlutterFlowTheme.of(
+                                                            context,
+                                                          ).alternate !=
                                                           null)
                                                       ? BorderSide(
                                                           width: 2,
-                                                          color: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .alternate,
+                                                          color:
+                                                              FlutterFlowTheme.of(
+                                                                context,
+                                                              ).alternate,
                                                         )
                                                       : null,
                                                   activeColor:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .primary,
+                                                        context,
+                                                      ).primary,
                                                   checkColor:
                                                       FlutterFlowTheme.of(
-                                                              context)
-                                                          .info,
+                                                        context,
+                                                      ).info,
                                                 ),
                                               ),
                                             ],
@@ -1786,8 +1955,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     ),
                   ),
                   Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(30.0, 4.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      30.0,
+                      4.0,
+                      0.0,
+                      0.0,
+                    ),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -1796,13 +1969,17 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                           children: [
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  10.0, 0.0, 0.0, 0.0),
+                                10.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                              ),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   FFButtonWidget(
-                                    onPressed: (FFAppState().dataEnviada ==
-                                            true)
+                                    onPressed:
+                                        (FFAppState().dataEnviada == true)
                                         ? null
                                         : () async {
                                             var _shouldSetState = false;
@@ -1810,88 +1987,115 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 true) {
                                               var confirmDialogResponse =
                                                   await showDialog<bool>(
-                                                        context: context,
-                                                        builder:
-                                                            (alertDialogContext) {
-                                                          return AlertDialog(
-                                                            title: Text(
-                                                                'Confirmar envío.'),
-                                                            content: Text(
-                                                                '¿Estás seguro de que quieres enviar estos datos?'),
-                                                            actions: [
-                                                              TextButton(
-                                                                onPressed: () =>
-                                                                    Navigator.pop(
-                                                                        alertDialogContext,
-                                                                        false),
-                                                                child: Text(
-                                                                    'Cancelar'),
-                                                              ),
-                                                              TextButton(
-                                                                onPressed: () =>
-                                                                    Navigator.pop(
-                                                                        alertDialogContext,
-                                                                        true),
-                                                                child: Text(
-                                                                    'Confirmar'),
-                                                              ),
-                                                            ],
-                                                          );
-                                                        },
-                                                      ) ??
-                                                      false;
+                                                    context: context,
+                                                    builder: (alertDialogContext) {
+                                                      return AlertDialog(
+                                                        title: Text(
+                                                          'Confirmar envío.',
+                                                        ),
+                                                        content: Text(
+                                                          '¿Estás seguro de que quieres enviar estos datos?',
+                                                        ),
+                                                        actions: [
+                                                          TextButton(
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                  alertDialogContext,
+                                                                  false,
+                                                                ),
+                                                            child: Text(
+                                                              'Cancelar',
+                                                            ),
+                                                          ),
+                                                          TextButton(
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                  alertDialogContext,
+                                                                  true,
+                                                                ),
+                                                            child: Text(
+                                                              'Confirmar',
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      );
+                                                    },
+                                                  ) ??
+                                                  false;
                                               if (confirmDialogResponse) {
-                                                if ((_model.vp1DcTextController.text !=
-                                                            '') &&
-                                                    (_model.vp2LibreTextController.text !=
-                                                            '') &&
-                                                    (_model.vp3PinuTextController
-                                                                .text !=
-                                                            '') &&
+                                                if ((_model
+                                                            .vp1DcTextController
+                                                            .text !=
+                                                        '') &&
                                                     (_model
-                                                                .vp4LibTextController
-                                                                .text !=
-                                                            '') &&
-                                                    (_model.vp5NacTextController
-                                                                .text !=
-                                                            '') &&
-                                                    (_model.vp6NulosTextController
-                                                                .text !=
-                                                            '') &&
-                                                    (_model.vp7BlancosTextController
-                                                                .text !=
-                                                            '')) {
-                                                  _model.apiResultznt =
-                                                      await LlamadaAAWSCall
-                                                          .call(
-                                                    vp1Cdc: int.tryParse(_model
-                                                        .vp1DcTextController
-                                                        .text),
-                                                    vp2Libre: int.tryParse(_model
-                                                        .vp2LibreTextController
-                                                        .text),
-                                                    vp3Pinu: int.tryParse(_model
-                                                        .vp3PinuTextController
-                                                        .text),
-                                                    vp4Lib: int.tryParse(_model
-                                                        .vp4LibTextController
-                                                        .text),
-                                                    vp5Nac: int.tryParse(_model
-                                                        .vp5NacTextController
-                                                        .text),
-                                                    vp6Nulos: int.tryParse(_model
-                                                        .vp6NulosTextController
-                                                        .text),
-                                                    vp7Blancos: int.tryParse(_model
-                                                        .vp7BlancosTextController
-                                                        .text),
+                                                            .vp2LibreTextController
+                                                            .text !=
+                                                        '') &&
+                                                    (_model
+                                                            .vp3PinuTextController
+                                                            .text !=
+                                                        '') &&
+                                                    (_model
+                                                            .vp4LibTextController
+                                                            .text !=
+                                                        '') &&
+                                                    (_model
+                                                            .vp5NacTextController
+                                                            .text !=
+                                                        '') &&
+                                                    (_model
+                                                            .vp6NulosTextController
+                                                            .text !=
+                                                        '') &&
+                                                    (_model
+                                                            .vp7BlancosTextController
+                                                            .text !=
+                                                        '')) {
+                                                  _model
+                                                      .apiResultznt = await LlamadaAAWSCall.call(
+                                                    vp1Cdc: int.tryParse(
+                                                      _model
+                                                          .vp1DcTextController
+                                                          .text,
+                                                    ),
+                                                    vp2Libre: int.tryParse(
+                                                      _model
+                                                          .vp2LibreTextController
+                                                          .text,
+                                                    ),
+                                                    vp3Pinu: int.tryParse(
+                                                      _model
+                                                          .vp3PinuTextController
+                                                          .text,
+                                                    ),
+                                                    vp4Lib: int.tryParse(
+                                                      _model
+                                                          .vp4LibTextController
+                                                          .text,
+                                                    ),
+                                                    vp5Nac: int.tryParse(
+                                                      _model
+                                                          .vp5NacTextController
+                                                          .text,
+                                                    ),
+                                                    vp6Nulos: int.tryParse(
+                                                      _model
+                                                          .vp6NulosTextController
+                                                          .text,
+                                                    ),
+                                                    vp7Blancos: int.tryParse(
+                                                      _model
+                                                          .vp7BlancosTextController
+                                                          .text,
+                                                    ),
                                                     totalvotos:
                                                         _model.sumaActas,
                                                     jrv: FFAppState()
                                                         .mesaSeleccionado,
                                                     fecha: dateTimeFormat(
-                                                        "d/M/y",
-                                                        getCurrentTimestamp),
+                                                      "d/M/y",
+                                                      getCurrentTimestamp,
+                                                    ),
                                                     revision: _model
                                                         .checkboxValue
                                                         ?.toString(),
@@ -1901,18 +2105,20 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 } else {
                                                   await showDialog(
                                                     context: context,
-                                                    builder:
-                                                        (alertDialogContext) {
+                                                    builder: (alertDialogContext) {
                                                       return AlertDialog(
                                                         title: Text(
-                                                            'Error al enviar datos.'),
+                                                          'Error al enviar datos.',
+                                                        ),
                                                         content: Text(
-                                                            'No debe dejar campos en blanco.'),
+                                                          'No debe dejar campos en blanco.',
+                                                        ),
                                                         actions: [
                                                           TextButton(
                                                             onPressed: () =>
                                                                 Navigator.pop(
-                                                                    alertDialogContext),
+                                                                  alertDialogContext,
+                                                                ),
                                                             child: Text('Ok'),
                                                           ),
                                                         ],
@@ -1924,23 +2130,26 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                   return;
                                                 }
 
-                                                if ((_model.apiResultznt
+                                                if ((_model
+                                                        .apiResultznt
                                                         ?.succeeded ??
                                                     true)) {
                                                   await showDialog(
                                                     context: context,
-                                                    builder:
-                                                        (alertDialogContext) {
+                                                    builder: (alertDialogContext) {
                                                       return AlertDialog(
                                                         title: Text(
-                                                            'Envio de datos exitoso'),
+                                                          'Envio de datos exitoso',
+                                                        ),
                                                         content: Text(
-                                                            'Se enviaron con exito los datos.'),
+                                                          'Se enviaron con exito los datos.',
+                                                        ),
                                                         actions: [
                                                           TextButton(
                                                             onPressed: () =>
                                                                 Navigator.pop(
-                                                                    alertDialogContext),
+                                                                  alertDialogContext,
+                                                                ),
                                                             child: Text('Ok'),
                                                           ),
                                                         ],
@@ -1953,18 +2162,20 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 } else {
                                                   await showDialog(
                                                     context: context,
-                                                    builder:
-                                                        (alertDialogContext) {
+                                                    builder: (alertDialogContext) {
                                                       return AlertDialog(
                                                         title: Text(
-                                                            'Error en envio de datos.'),
+                                                          'Error en envio de datos.',
+                                                        ),
                                                         content: Text(
-                                                            'Hubo un error en el envio de datos.'),
+                                                          'Hubo un error en el envio de datos.',
+                                                        ),
                                                         actions: [
                                                           TextButton(
                                                             onPressed: () =>
                                                                 Navigator.pop(
-                                                                    alertDialogContext),
+                                                                  alertDialogContext,
+                                                                ),
                                                             child: Text('Ok'),
                                                           ),
                                                         ],
@@ -1982,18 +2193,20 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                               } else {
                                                 await showDialog(
                                                   context: context,
-                                                  builder:
-                                                      (alertDialogContext) {
+                                                  builder: (alertDialogContext) {
                                                     return AlertDialog(
                                                       title: Text(
-                                                          'Envio de datos cancelado.'),
+                                                        'Envio de datos cancelado.',
+                                                      ),
                                                       content: Text(
-                                                          'Se ha cancelado el envio de los datos.'),
+                                                        'Se ha cancelado el envio de los datos.',
+                                                      ),
                                                       actions: [
                                                         TextButton(
                                                           onPressed: () =>
                                                               Navigator.pop(
-                                                                  alertDialogContext),
+                                                                alertDialogContext,
+                                                              ),
                                                           child: Text('Ok'),
                                                         ),
                                                       ],
@@ -2011,12 +2224,14 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                   return AlertDialog(
                                                     title: Text('Aviso'),
                                                     content: Text(
-                                                        'Para enviar los resultados del acta debe antes sumar los votos.'),
+                                                      'Para enviar los resultados del acta debe antes sumar los votos.',
+                                                    ),
                                                     actions: [
                                                       TextButton(
                                                         onPressed: () =>
                                                             Navigator.pop(
-                                                                alertDialogContext),
+                                                              alertDialogContext,
+                                                            ),
                                                         child: Text('Ok'),
                                                       ),
                                                     ],
@@ -2035,41 +2250,48 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                     options: FFButtonOptions(
                                       height: 40.0,
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          16.0, 0.0, 16.0, 0.0),
+                                        16.0,
+                                        0.0,
+                                        16.0,
+                                        0.0,
+                                      ),
                                       iconPadding:
                                           EdgeInsetsDirectional.fromSTEB(
-                                              0.0, 0.0, 0.0, 0.0),
-                                      color: FlutterFlowTheme.of(context)
-                                          .secondaryText,
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                            0.0,
+                                          ),
+                                      color: FlutterFlowTheme.of(
+                                        context,
+                                      ).secondaryText,
                                       textStyle: FlutterFlowTheme.of(context)
                                           .titleSmall
                                           .override(
                                             font: GoogleFonts.interTight(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .titleSmall
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .titleSmall
-                                                      .fontStyle,
+                                              fontWeight: FlutterFlowTheme.of(
+                                                context,
+                                              ).titleSmall.fontWeight,
+                                              fontStyle: FlutterFlowTheme.of(
+                                                context,
+                                              ).titleSmall.fontStyle,
                                             ),
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
+                                            color: FlutterFlowTheme.of(
+                                              context,
+                                            ).alternate,
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .fontWeight,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .fontStyle,
+                                            fontWeight: FlutterFlowTheme.of(
+                                              context,
+                                            ).titleSmall.fontWeight,
+                                            fontStyle: FlutterFlowTheme.of(
+                                              context,
+                                            ).titleSmall.fontStyle,
                                           ),
                                       elevation: 0.0,
                                       borderSide: BorderSide(
-                                        color: FlutterFlowTheme.of(context)
-                                            .alternate,
+                                        color: FlutterFlowTheme.of(
+                                          context,
+                                        ).alternate,
                                         width: 2.0,
                                       ),
                                       borderRadius: BorderRadius.circular(12.0),
@@ -2083,41 +2305,43 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                               children: [
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
-                                      5.0, 0.0, 15.0, 0.0),
+                                    5.0,
+                                    0.0,
+                                    15.0,
+                                    0.0,
+                                  ),
                                   child: LinearPercentIndicator(
                                     percent: 0.5,
                                     width: 100.0,
                                     lineHeight: 25.0,
                                     animation: true,
                                     animateFromLastPercent: true,
-                                    progressColor:
-                                        FlutterFlowTheme.of(context).primary,
-                                    backgroundColor:
-                                        FlutterFlowTheme.of(context).accent4,
+                                    progressColor: FlutterFlowTheme.of(
+                                      context,
+                                    ).primary,
+                                    backgroundColor: FlutterFlowTheme.of(
+                                      context,
+                                    ).accent4,
                                     center: Text(
                                       '50%',
                                       style: FlutterFlowTheme.of(context)
                                           .headlineSmall
                                           .override(
                                             font: GoogleFonts.interTight(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineSmall
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .headlineSmall
-                                                      .fontStyle,
+                                              fontWeight: FlutterFlowTheme.of(
+                                                context,
+                                              ).headlineSmall.fontWeight,
+                                              fontStyle: FlutterFlowTheme.of(
+                                                context,
+                                              ).headlineSmall.fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .headlineSmall
-                                                    .fontWeight,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .headlineSmall
-                                                    .fontStyle,
+                                            fontWeight: FlutterFlowTheme.of(
+                                              context,
+                                            ).headlineSmall.fontWeight,
+                                            fontStyle: FlutterFlowTheme.of(
+                                              context,
+                                            ).headlineSmall.fontStyle,
                                           ),
                                     ),
                                     padding: EdgeInsets.zero,
@@ -2131,8 +2355,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     ),
                   ),
                   Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(40.0, 5.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      40.0,
+                      5.0,
+                      0.0,
+                      0.0,
+                    ),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -2143,28 +2371,34 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 FFButtonWidget(
-                                  onPressed: (_model.uploadedFileUrl_uploadDataO0t !=
-                                              '')
+                                  onPressed:
+                                      (_model.uploadedFileUrl_uploadDataO0t !=
+                                          '')
                                       ? null
                                       : () async {
                                           if (FFAppState().dataEnviada ==
                                               true) {
                                             final selectedMedia =
                                                 await selectMediaWithSourceBottomSheet(
-                                              context: context,
-                                              storageFolderPath: 'megatk/img',
-                                              maxWidth: 2048.00,
-                                              maxHeight: 2048.00,
-                                              allowPhoto: true,
-                                            );
+                                                  context: context,
+                                                  storageFolderPath:
+                                                      'megatk/img',
+                                                  maxWidth: 2048.00,
+                                                  maxHeight: 2048.00,
+                                                  allowPhoto: true,
+                                                );
                                             if (selectedMedia != null &&
-                                                selectedMedia.every((m) =>
-                                                    validateFileFormat(
-                                                        m.storagePath,
-                                                        context))) {
-                                              safeSetState(() => _model
-                                                      .isDataUploading_uploadDataO0t =
-                                                  true);
+                                                selectedMedia.every(
+                                                  (m) => validateFileFormat(
+                                                    m.storagePath,
+                                                    context,
+                                                  ),
+                                                )) {
+                                              safeSetState(
+                                                () =>
+                                                    _model.isDataUploading_uploadDataO0t =
+                                                        true,
+                                              );
                                               var selectedUploadedFiles =
                                                   <FFUploadedFile>[];
 
@@ -2177,32 +2411,35 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 );
                                                 selectedUploadedFiles =
                                                     selectedMedia
-                                                        .map((m) =>
-                                                            FFUploadedFile(
-                                                              name: m
-                                                                  .storagePath
-                                                                  .split('/')
-                                                                  .last,
-                                                              bytes: m.bytes,
-                                                              height: m
-                                                                  .dimensions
-                                                                  ?.height,
-                                                              width: m
-                                                                  .dimensions
-                                                                  ?.width,
-                                                              blurHash:
-                                                                  m.blurHash,
-                                                            ))
+                                                        .map(
+                                                          (m) => FFUploadedFile(
+                                                            name: m.storagePath
+                                                                .split('/')
+                                                                .last,
+                                                            bytes: m.bytes,
+                                                            height: m
+                                                                .dimensions
+                                                                ?.height,
+                                                            width: m
+                                                                .dimensions
+                                                                ?.width,
+                                                            blurHash:
+                                                                m.blurHash,
+                                                          ),
+                                                        )
                                                         .toList();
 
                                                 downloadUrls =
                                                     await uploadSupabaseStorageFiles(
-                                                  bucketName: 'actas_megatk',
-                                                  selectedFiles: selectedMedia,
-                                                );
+                                                      bucketName:
+                                                          'actas_megatk',
+                                                      selectedFiles:
+                                                          selectedMedia,
+                                                    );
                                               } finally {
-                                                ScaffoldMessenger.of(context)
-                                                    .hideCurrentSnackBar();
+                                                ScaffoldMessenger.of(
+                                                  context,
+                                                ).hideCurrentSnackBar();
                                                 _model.isDataUploading_uploadDataO0t =
                                                     false;
                                               }
@@ -2219,11 +2456,15 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                       downloadUrls.first;
                                                 });
                                                 showUploadMessage(
-                                                    context, 'Success!');
+                                                  context,
+                                                  'Success!',
+                                                );
                                               } else {
                                                 safeSetState(() {});
-                                                showUploadMessage(context,
-                                                    'Failed to upload data');
+                                                showUploadMessage(
+                                                  context,
+                                                  'Failed to upload data',
+                                                );
                                                 return;
                                               }
                                             }
@@ -2234,12 +2475,14 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 return AlertDialog(
                                                   title: Text('Aviso'),
                                                   content: Text(
-                                                      'Para cargar la foto del acta debe enviar los resultados del acta antes.'),
+                                                    'Para cargar la foto del acta debe enviar los resultados del acta antes.',
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
-                                                              alertDialogContext),
+                                                            alertDialogContext,
+                                                          ),
                                                       child: Text('Ok'),
                                                     ),
                                                   ],
@@ -2249,20 +2492,23 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                             return;
                                           }
 
-                                          if (_model.uploadedFileUrl_uploadDataO0t !=
-                                                  '') {
+                                          if (_model
+                                                  .uploadedFileUrl_uploadDataO0t !=
+                                              '') {
                                             await showDialog(
                                               context: context,
                                               builder: (alertDialogContext) {
                                                 return AlertDialog(
                                                   title: Text('Exito'),
                                                   content: Text(
-                                                      'La imagen fue cargada con exito.'),
+                                                    'La imagen fue cargada con exito.',
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
-                                                              alertDialogContext),
+                                                            alertDialogContext,
+                                                          ),
                                                       child: Text('Ok'),
                                                     ),
                                                   ],
@@ -2275,12 +2521,14 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 return AlertDialog(
                                                   title: Text('Aviso'),
                                                   content: Text(
-                                                      'Ha terminado el proceso de registro de datos e imagen, puede salir de la sesión.'),
+                                                    'Ha terminado el proceso de registro de datos e imagen, puede salir de la sesión.',
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
-                                                              alertDialogContext),
+                                                            alertDialogContext,
+                                                          ),
                                                       child: Text('Ok'),
                                                     ),
                                                   ],
@@ -2295,12 +2543,14 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                 return AlertDialog(
                                                   title: Text('Error'),
                                                   content: Text(
-                                                      'La imagen no pudo ser cargada.'),
+                                                    'La imagen no pudo ser cargada.',
+                                                  ),
                                                   actions: [
                                                     TextButton(
                                                       onPressed: () =>
                                                           Navigator.pop(
-                                                              alertDialogContext),
+                                                            alertDialogContext,
+                                                          ),
                                                       child: Text('Ok'),
                                                     ),
                                                   ],
@@ -2314,38 +2564,43 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   options: FFButtonOptions(
                                     height: 40.0,
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        16.0, 0.0, 16.0, 0.0),
+                                      16.0,
+                                      0.0,
+                                      16.0,
+                                      0.0,
+                                    ),
                                     iconPadding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 0.0, 0.0),
+                                      0.0,
+                                      0.0,
+                                      0.0,
+                                      0.0,
+                                    ),
                                     color: Color(0xFF57636C),
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleSmall
                                         .override(
                                           font: GoogleFonts.interTight(
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .fontWeight,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .titleSmall
-                                                    .fontStyle,
+                                            fontWeight: FlutterFlowTheme.of(
+                                              context,
+                                            ).titleSmall.fontWeight,
+                                            fontStyle: FlutterFlowTheme.of(
+                                              context,
+                                            ).titleSmall.fontStyle,
                                           ),
                                           color: Colors.white,
                                           letterSpacing: 0.0,
-                                          fontWeight:
-                                              FlutterFlowTheme.of(context)
-                                                  .titleSmall
-                                                  .fontWeight,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .titleSmall
-                                                  .fontStyle,
+                                          fontWeight: FlutterFlowTheme.of(
+                                            context,
+                                          ).titleSmall.fontWeight,
+                                          fontStyle: FlutterFlowTheme.of(
+                                            context,
+                                          ).titleSmall.fontStyle,
                                         ),
                                     elevation: 0.0,
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context)
-                                          .alternate,
+                                      color: FlutterFlowTheme.of(
+                                        context,
+                                      ).alternate,
                                       width: 2.0,
                                     ),
                                     borderRadius: BorderRadius.circular(12.0),
@@ -2368,26 +2623,23 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontWeight: FlutterFlowTheme.of(
+                                                context,
+                                              ).bodyMedium.fontWeight,
+                                              fontStyle: FlutterFlowTheme.of(
+                                                context,
+                                              ).bodyMedium.fontStyle,
                                             ),
-                                            color: FlutterFlowTheme.of(context)
-                                                .alternate,
+                                            color: FlutterFlowTheme.of(
+                                              context,
+                                            ).alternate,
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontWeight,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontWeight: FlutterFlowTheme.of(
+                                              context,
+                                            ).bodyMedium.fontWeight,
+                                            fontStyle: FlutterFlowTheme.of(
+                                              context,
+                                            ).bodyMedium.fontStyle,
                                           ),
                                     ),
                                   ),
@@ -2400,8 +2652,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                     ),
                   ),
                   Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 0.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(
+                      0.0,
+                      15.0,
+                      0.0,
+                      0.0,
+                    ),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -2413,7 +2669,11 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                           children: [
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
-                                  5.0, 0.0, 0.0, 0.0),
+                                5.0,
+                                0.0,
+                                0.0,
+                                0.0,
+                              ),
                               child: Container(
                                 width: 373.38,
                                 height: 59.0,
@@ -2421,8 +2681,9 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                   color: Color(0xFF252D35),
                                   borderRadius: BorderRadius.circular(10.0),
                                   border: Border.all(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryText,
+                                    color: FlutterFlowTheme.of(
+                                      context,
+                                    ).secondaryText,
                                   ),
                                 ),
                                 child: Row(
@@ -2437,37 +2698,52 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                         Padding(
                                           padding:
                                               EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 0.0, 50.0, 0.0),
+                                                0.0,
+                                                0.0,
+                                                50.0,
+                                                0.0,
+                                              ),
                                           child: FFButtonWidget(
                                             onPressed: () async {
                                               context.pushNamed(
-                                                  IngresoJRVWidget.routeName);
+                                                IngresoJRVWidget.routeName,
+                                              );
                                             },
                                             text: 'REGRESAR',
                                             options: FFButtonOptions(
                                               height: 40.0,
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      16.0, 0.0, 16.0, 0.0),
-                                              iconPadding: EdgeInsetsDirectional
-                                                  .fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .error,
-                                              textStyle: FlutterFlowTheme.of(
-                                                      context)
-                                                  .titleSmall
-                                                  .override(
-                                                    font:
-                                                        GoogleFonts.interTight(
+                                              padding:
+                                                  EdgeInsetsDirectional.fromSTEB(
+                                                    16.0,
+                                                    0.0,
+                                                    16.0,
+                                                    0.0,
+                                                  ),
+                                              iconPadding:
+                                                  EdgeInsetsDirectional.fromSTEB(
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                  ),
+                                              color: FlutterFlowTheme.of(
+                                                context,
+                                              ).error,
+                                              textStyle:
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).titleSmall.override(
+                                                    font: GoogleFonts.interTight(
                                                       fontWeight:
                                                           FlutterFlowTheme.of(
-                                                                  context)
+                                                                context,
+                                                              )
                                                               .titleSmall
                                                               .fontWeight,
                                                       fontStyle:
                                                           FlutterFlowTheme.of(
-                                                                  context)
+                                                                context,
+                                                              )
                                                               .titleSmall
                                                               .fontStyle,
                                                     ),
@@ -2475,14 +2751,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     letterSpacing: 0.0,
                                                     fontWeight:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .titleSmall
-                                                            .fontWeight,
+                                                          context,
+                                                        ).titleSmall.fontWeight,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .titleSmall
-                                                            .fontStyle,
+                                                          context,
+                                                        ).titleSmall.fontStyle,
                                                   ),
                                               elevation: 0.0,
                                               borderRadius:
@@ -2502,34 +2776,45 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                           FFButtonWidget(
                                             onPressed: () async {
                                               context.pushNamed(
-                                                  RegistroFireBaseWidget
-                                                      .routeName);
+                                                RegistroFireBaseWidget
+                                                    .routeName,
+                                              );
                                             },
                                             text: '      SALIR       ',
                                             options: FFButtonOptions(
                                               height: 40.0,
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      16.0, 0.0, 16.0, 0.0),
-                                              iconPadding: EdgeInsetsDirectional
-                                                  .fromSTEB(0.0, 0.0, 0.0, 0.0),
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .error,
-                                              textStyle: FlutterFlowTheme.of(
-                                                      context)
-                                                  .titleSmall
-                                                  .override(
-                                                    font:
-                                                        GoogleFonts.interTight(
+                                              padding:
+                                                  EdgeInsetsDirectional.fromSTEB(
+                                                    16.0,
+                                                    0.0,
+                                                    16.0,
+                                                    0.0,
+                                                  ),
+                                              iconPadding:
+                                                  EdgeInsetsDirectional.fromSTEB(
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                    0.0,
+                                                  ),
+                                              color: FlutterFlowTheme.of(
+                                                context,
+                                              ).error,
+                                              textStyle:
+                                                  FlutterFlowTheme.of(
+                                                    context,
+                                                  ).titleSmall.override(
+                                                    font: GoogleFonts.interTight(
                                                       fontWeight:
                                                           FlutterFlowTheme.of(
-                                                                  context)
+                                                                context,
+                                                              )
                                                               .titleSmall
                                                               .fontWeight,
                                                       fontStyle:
                                                           FlutterFlowTheme.of(
-                                                                  context)
+                                                                context,
+                                                              )
                                                               .titleSmall
                                                               .fontStyle,
                                                     ),
@@ -2537,14 +2822,12 @@ class _HomeDataTableWidgetState extends State<HomeDataTableWidget> {
                                                     letterSpacing: 0.0,
                                                     fontWeight:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .titleSmall
-                                                            .fontWeight,
+                                                          context,
+                                                        ).titleSmall.fontWeight,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
-                                                                context)
-                                                            .titleSmall
-                                                            .fontStyle,
+                                                          context,
+                                                        ).titleSmall.fontStyle,
                                                   ),
                                               elevation: 0.0,
                                               borderRadius:
