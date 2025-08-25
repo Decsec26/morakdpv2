@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "938297750935",
+    "project_id": "moraksys-4g5li5",
+    "storage_bucket": "moraksys-4g5li5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938297750935:android:3a6b84b433cd72f48640d2",
+        "android_client_info": {
+          "package_name": "voto.morak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vGVLklVQUFAns7Bcld1YEq0DvETEZIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
