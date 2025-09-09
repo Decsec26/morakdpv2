@@ -196,9 +196,13 @@ Future maybeCreateUser(User user) async {
     currentUserDocument = await UsersRecord.getDocumentOnce(userRecord);
     return;
   }
+  
+  //Aqui el correo se crea con el numero del usuario y se le concatena el @gmail.com
+  final correo =
+      user.phoneNumber != null ? '${user.phoneNumber}@gmail.com' : null;
 
   final userData = createUsersRecordData(
-    email: user.email ??
+    email: correo ???
         FirebaseAuth.instance.currentUser?.email ??
         user.providerData.firstOrNull?.email,
     displayName:
